@@ -5,7 +5,7 @@ function calcularMontoDeCF(precio){
 let sumatoria = 0;
 let precioProductos
 do{
-    precioProductos = prompt('Si sos Responsable Inscripto ingresa el monto total de tu factura y te diremos el IVA CF que podes deducir en tu ddjj mensual de IVA');
+    precioProductos = prompt('Si sos Responsable Inscripto ingresa el monto neto de tu factura y te diremos el IVA CF que podes deducir en tu ddjj mensual de IVA');
     const precioProductosParseado = parseFloat(precioProductos);
     if(precioProductosParseado){
         const productoIva = calcularMontoDeCF(precioProductosParseado)
